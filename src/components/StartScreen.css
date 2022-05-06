@@ -1,0 +1,29 @@
+.start button{
+  margin-top: 1em;
+}
+
+.test h1{
+  line-height: 0.3em;
+}
+
+.test h1:nth-child(1) {
+  font-size: 2.5em;
+  position:relative;
+  right: 1.8em;
+}
+
+.test h1:nth-child(2) {
+  /*position:relative;
+  left: 0.29em;*/
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+span {
+  color: blue;
+  background-color: var(--label-color);
+  border-radius: 0.07em;
+  z-index: 1;
+  padding: 0 15px;
+  box-shadow: 9px 7px #201f1f;
+}
